@@ -1,0 +1,46 @@
+[
+  {
+    "address": "0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85",
+    "clearance": 2,
+    "executionOptions": 0,
+    "functions": [
+      {
+        "selector": "0x095ea7b3",
+        "wildcarded": true
+      }
+    ]
+  },
+  {
+    "address": "0x38869bf66a61cF6bDB996A6aE40D5853Fd43B526",
+    "clearance": 2,
+    "executionOptions": 2,
+    "functions": [
+      {
+        "selector": "0x8d80ff0a",
+        "wildcarded": true
+      }
+    ]
+  },
+  {
+    "address": "0x4200000000000000000000000000000000000006",
+    "clearance": 2,
+    "executionOptions": 0,
+    "functions": [
+      {
+        "selector": "0x095ea7b3",
+        "wildcarded": true
+      }
+    ]
+  },
+  {
+    "address": "0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45",
+    "clearance": 2,
+    "executionOptions": 1,
+    "functions": [
+      {
+        "selector": "0x04e45aaf",
+        "wildcarded": true
+      }
+    ]
+  }
+]

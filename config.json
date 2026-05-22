@@ -1,0 +1,32 @@
+{
+  "chain": "optimism",
+  "protocol": "uniswap_v3",
+  "base_token": "WETH",
+  "quote_token": "USDC",
+  "signal_timeframe": "5m",
+  "fast_ema_period": 8,
+  "slow_ema_period": 21,
+  "ohlcv_limit": 80,
+  "min_trade_value_usd": "8",
+  "max_slippage_bps": 50,
+  "force_action": "",
+  "token_funding": [
+    {
+      "symbol": "WETH",
+      "address": "0x4200000000000000000000000000000000000006",
+      "amount": "10",
+      "amount_type": "usd"
+    },
+    {
+      "symbol": "USDC",
+      "address": "0x0b2c639c533813f4aa9d7837caf62653d097ff85",
+      "amount": "10",
+      "amount_type": "usd"
+    }
+  ],
+  "anvil_funding": {
+    "ETH": 10,
+    "WETH": 2,
+    "USDC": 10000
+  }
+}
