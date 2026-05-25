@@ -1,5 +1,5 @@
 {
-  "display_name": "OP-TA-Swap-MA",
-  "description": "EMA crossover TA dashboard for the OP WETH/USDC swap strategy.",
-  "icon": "📈"
+  "display_name": "OPTASwapMAStrategy",
+  "description": "EMA crossover dashboard for the Optimism Uniswap V3 WETH/USDC swap strategy.",
+  "icon": "🔁"
 }
