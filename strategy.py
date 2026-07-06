@@ -247,7 +247,11 @@ class OPTASwapMAStrategy(IntentStrategy):
             )
 
         return TeardownPositionSummary(
-            strategy_id=self.strategy_id or self.STRATEGY_NAME,
+            deployment_id=(
+                getattr(self, "deployment_id", None)
+                or getattr(self, "strategy_id", None)
+                or self.STRATEGY_NAME
+            ),
             timestamp=datetime.now(UTC),
             positions=positions,
         )
